@@ -1,0 +1,131 @@
+   * { margin: 0; padding: 0;  }
+
+   body {
+       background-color: black;
+   }
+
+   .nav {
+       width: 100vw;
+       height: 45px;
+       background-color: black;
+       box-shadow: 0px 0px 10px 1px black;
+   }
+
+   ul {
+       width: 100vw;
+       padding-top: 9px;
+       text-align: center;
+   }
+
+   ul li {
+       margin-left: 3vw;
+       display: inline-block;
+       border-bottom: solid 2px black;
+       transition: 0.5s;
+   }
+
+   ul li:hover {
+       border-bottom: solid 2px oldlace;
+
+   }
+
+   a {
+       color: wheat;
+       font-size: 15px;
+       font-family: sans-serif;
+       letter-spacing: 1px;
+   }
+
+    main {
+       display: flex;
+       width: 100vw;
+       height: 80vh;
+       margin-top: 5vh;
+       border: wheat;
+   }
+    media {
+        width: 45vw;
+        margin-top: 2vw;
+    }
+    h2{
+        font-size: 40px;
+        color: wheat;
+        margin-top: 40px;
+        text-shadow: 4px 4px 4px black;
+    }
+   .text {
+       font-size: 18px;
+       color: darkviolet;
+       margin-top: 20px;
+       text-shadow: 4px 4px 4px black;
+   }
+
+    main{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+    }
+
+    media {
+        width: 46vw;
+    }
+
+    .h1 {
+        font-size: 45px;
+        color: orange;
+        font-family: cursive;
+        margin-top: 40px;
+        text-shadow: 4px 4px 6px black  ;
+    }
+
+    .price {
+        font-size: 65px;
+        color: chartreuse;
+        font-family: cursive;
+        margin-top: 40px;
+        margin-left: 60px;
+        text-shadow: 4px 4px 6px black  ;
+    }
+
+    .btn cont {
+        display: flex;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    button {
+        margin-left: 30px;
+        font-size: cursive;
+        padding: 15px;
+        width: 20vw;
+        background-color: black;
+        letter-spacing: 1px;
+        font-size: 18px;
+        border-radius: 5px;
+        color: fuchsia;
+        cursor: pointer;
+        border: solid 1px black;
+    }
+    button:hover {
+        background-color: white;
+        color: black;
+        transition: 0.1s;
+    }
+
+    ,btn m {
+       text-align: center;
+       width: 15vh;
+       padding: 15px;
+       cursor: pointer;
+       font-size: 18px;
+       color: white;
+       font-family: cursive;
+       background-color: black;
+       border: solid 1px white;
+     }
+
+   button:hover {
+       background-color: black;
+       color: white;
+       transition: 0.1s;
+   }
